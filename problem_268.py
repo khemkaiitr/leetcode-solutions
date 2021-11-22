@@ -6,6 +6,7 @@ class Solution:
     def __init__(self, nums):
         self.nums = nums
 
+    @property
     def missing_number_method1(self):
         """
         Approach: find sum of all the numbers in the array as well as sum of n elements.
@@ -36,5 +37,5 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution([3, 0, 1])
-    print(sol.missing_number_method1())
+    print(sol.missing_number_method1)
     print(sol.missing_number_method2)
